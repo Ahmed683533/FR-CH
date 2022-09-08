@@ -1,0 +1,150 @@
+.header{
+    
+    position: relative;
+    background-color: rgb(70, 70, 70);
+}
+
+.header .navbar .navbar-brand{
+    color: brown;
+    font-size: 25px;
+    border: 2px solid rgb(255, 148, 148);
+    padding: 12px 9px;
+    border-radius: 50px;
+    border-style: inset;
+}
+
+.header .navbar .navbar-brand i{
+    font-size: 30px;
+    margin-right: 7px;
+}
+
+.header .navbar ul li a{
+    padding: 10px 15px !important;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header .navbar ul li .dropdown-item{
+    color: #F49901;
+}
+
+.header .navbar ul li p{
+    display: inline;
+    margin-left: 50px;
+    color: yellow;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.header .navbar ul li p span{
+    color: white;
+}
+
+/*-======================== end header ==================================*/
+
+.contact .image img{
+    height: 500px;
+    width: 100%;
+}
+
+.contact .title{
+    width: 20%;
+    margin: auto;
+    padding: 15px 0px;
+    text-align: center;
+    color: black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 15px;
+}
+
+.contact form{
+    padding-bottom: 20px;
+}
+/*-======================== end contact ==================================*/
+
+#footer {
+    background: #F49901;
+    padding: 50px 0 0;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+}
+
+.row {
+    margin: 0;
+}
+
+#footer h5 {
+    color: #353535;
+}
+
+#footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#footer ul li a {
+    color: #fff;
+}
+
+#footer .copy {
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#footer .copy::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35%;
+    height: 2px;
+    background: #353535;
+}
+
+#footer .copy p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer .copy::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35%;
+    height: 2px;
+    background: #353535;
+}
+
+#footer .branches .social li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+#footer .branches .social li img {
+    width: 30px;
+}
+
+/*------------ start media ---------------------------*/
+
+@media(max-width:767px){
+    .contact .title{
+        width: 95%;
+    }
+
+    #footer .copy::after {
+        display: none;
+     }
+ 
+     #footer .copy::before {
+         display: none;
+     }
+}
